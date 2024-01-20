@@ -1,0 +1,18 @@
+[package]
+name = "shotoku"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.31"
+clap = { version = "4.4.16", features = ["derive"] }
+console = "0.15.8"
+eventsource-stream = "0.2.3"
+futures = "0.3.30"
+indicatif = "0.17.7"
+reqwest = { version = "0.11.23", features = ["json", "stream"] }
+serde = { version = "1.0.195", features = ["derive"] }
+serde_json = "1.0.111"
+tokio = { version = "1.35.1", features = ["full"] }
